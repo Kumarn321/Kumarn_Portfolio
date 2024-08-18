@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Kumarn responsive Portfolio</title>
+    
+
+</head>
+<body>
+             <!-- HEADER SECTION -->
+         <header class="header">
+            <a href="#" class="Logo">Portfolio</a>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#services">Services</a>
+                <a href="#skill">Additional Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact Me</a>
+            </nav>
+         </header>
+
+         <!-- HOME SECTION DESIGN -->
+                <section class="home" id="home">
+                    <div class="home-content">`
+                        <h3>Hi,Myself</h1>
+                        <h1>Kumar N</h1>
+                        <h3>And I'm a <span class="multiple-text"></span></h3>
+                        <p>"Enthusiastic and detail-oriented with a strong foundation in HTML, CSS, and JavaScript seeking an entry-level Frontend Developer position. Eager to leverage my skills in creating responsive and user-friendly web interfaces to contribute to a dynamic team and deliver high-quality digital experiences."</p>
+                        <div class="social-media">
+                            <a href="https://m.facebook.com/kumar.kum.581/" target="_blank" rel="no offence"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/invites/contact/?i=se1jko6g18u3&utm_content=ak9ia03" target="_blank" rel="no offence"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/kumar-n-039272135?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="no offence"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Kumarn321" target="_blank" rel="no opener"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="/MyPortfolio/Kumarn_resume.pdf" download class="Btn">Download CV</a>
+                    </div>
+
+                    <div class="home-img">
+                        <img src="IMG_20220522_174136_131.jpg" alt="">
+                    </div>
+                </section>
+
+         <!-- ABOUT SECTION DESIGN -->  
+            
+            <section class="about" id="about">
+                    <div class="about-img">
+                        <img src="IMG_20220522_174136_131.jpg" alt="">
+                    </div>
+
+                <div class="about-content">
+                    <h2 class="heading">About <span>me</span></h2>
+                    <h3>Frontend Developer</h3>
+                    <p id="clicked">"Recently transitioned from a [Automobile field as an Production Engineer] to pursue a career in frontend development, driven by a passion for technology and problem-solving. "</p>
+                    <!-- <a href="#" class="Btn">Read More</a> -->
+                    <button id="Btn" onclick="update()" class="Btn">Read More</button>
+                    <script>
+                        var p = document.getElementById("clicked")
+                        function update() {
+                            p.textContent='"Recently transitioned from a [Automobile field as an Production Engineer] to pursue a career in frontend development, driven by a passion for technology and problem-solving.Dedicated to continuous learning and growth in front-end development, with recent coursework and personal projects demonstrating a proactive approach to modern web technologies and best practices."'
+                        }
+                    </script>
+                </div>
+            </section>
+         
+         <!-- SERVICES SECTION DESIGN -->
+          
+             <section class="services" id="services">
+                <h2 class="heading">My <span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Responsive Design: Ensured mobile-friendly interfaces using media queries and flexible grid layouts.
+                        Performance Optimization: Implemented lazy loading and code splitting to enhance page load times.</p>
+                    <!-- <a href="#" class="Btn">Read More</a> -->
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>UI/UX Understanding</h3>
+                    <p>"Conducted basic user research and gathered feedback to inform design decisions, improving user interface elements and overall site functionality based on real user insights.</p>
+                    <!-- <a href="#" class="Btn">Read More</a> -->
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-brands fa-android"></i>
+                    <h3>APP Development</h3>
+                    <p>"Applied best practices in app development, including version control with Git, unit testing, and agile methodologies, to ensure code quality and efficient project management during development."</p>
+                    <!-- <a href="#" class="Btn">Read More</a> -->
+                </div>
+            </div>
+             </section>
+
+        <!-- PORTFOLIO SECTION DESIGN -->
+             
+             <section class="portfolio" id="portfolio">
+                <h2 class="heading">Latest <span>Projects</span></h2>
+
+                <div class="portfolio-container">
+                    <div class="portfolio-box">
+                        <img src="/MyPortfolio/StockCake-Creative Team Working_1723883297.jpg" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Simple Creative designs</h4>
+                            <p>Created dynamic and interactive web elements using Html and CSS animations, Integrated custom animations and transitions that improved user retention by making navigation more engaging and enjoyable.</p>
+                            <a href="https://github.com/Kumarn321/Projects" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                        <div class="portfolio-box">
+                            <img src="/MyPortfolio/StockCake-Tech Team Hub_1723883391.jpg" alt="">
+                            <div class="portfolio-layer">
+                                <h4>To-Do List & Weather app</h4>
+                                <p>Created a To-Do List app for managing tasks and a Weather App for checking current weather. The To-Do List app uses HTML, CSS, and JavaScript with local storage for saving tasks. The Weather App integrates the OpenWeatherMap API to show live weather updates, featuring a clean interface and dynamic content updates. Both projects showcase skills in web development and user interface design.</p>
+                                <a href="https://github.com/Kumarn321/Projects" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                            <div class="portfolio-box">
+                                <img src="/MyPortfolio/StockCake-Creative design workspace_1723883116.jpg" alt="">
+                                <div class="portfolio-layer">
+                                    <h4>JavaScript Designs</h4>
+                                    <p>Designed and implemented JavaScript-driven interactive components, including dynamic forms and live data updates. Developed a to-do list application where users can add, edit, and delete tasks, with data persistence through local storage. Leveraged JavaScript for creating responsive elements and handling user inputs, ensuring seamless interaction and enhanced usability across various devices.</p>
+                                    <a href="https://github.com/Kumarn321/Projects/tree/main/Html%2Ccss%26js_projects" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+
+                                <!-- <div class="portfolio-box">
+                                    <img src="" alt="">
+                                    <div class="portfolio-layer">
+                                        <h4>Web design</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nobis nulla atque dolorum consequuntur et hic vero temporibus error quasi!</p>
+                                        <i class="fa-solid fa-up-right-from-square"></i>
+                                    </div>
+                                </div>
+
+                            <div class="portfolio-box">
+                                <img src="" alt="">
+                                <div class="portfolio-layer">
+                                    <h4>Web design</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nobis nulla atque dolorum consequuntur et hic vero temporibus error quasi!</p>
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </div> -->
+                           </div>
+                </div>
+             </section>
+
+             <!-- ADDITIONAL SKILL SECTION DESIGN -->
+             <section class="skill" id="skill">
+                <h2 class="heading">Additional <span>Skills</span></h2>
+
+            <div class="skill-container">
+                <div class="skill-box">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Sql And My sql</h3>
+                    <p>Fundamental SQL Knowledge: Acquired foundational skills in SQL through coursework, including writing basic queries for data retrieval, insertion, and updates, as well as understanding database schema design and relationships.</p>
+                    <p>Hands-On Experience with Database Tools: Gained practical experience with SQL through hands-on exercises and database management tools, demonstrating the ability to perform essential database operations and troubleshoot common issues.</p>
+                    <!-- <a href="#" class="Btn">Read More</a> -->
+                </div>
+
+                <div class="skill-box">
+                    <i class="fa-solid fa-table"></i>
+                    <h3>Advanced Excel</h3>
+                    <p>Advanced Excel Functions and Formulas: Proficient in utilizing advanced Excel functions such as VLOOKUP, INDEX-MATCH, pivot tables, and array formulas to perform complex data analysis and generate detailed reports efficiently.</p>
+                    <p>Skilled in Data Visualization and Automation: Experienced in creating dynamic charts and dashboards to visualize data trends and insights, and adept at automating repetitive tasks using macros and VBA scripting to enhance productivity and accuracy.</p>
+                    <!-- <a href="#" class="Btn">Read More</a> -->
+                </div>
+
+                <div class="skill-box">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React Js</h3>
+                    <p>Building Dynamic User Interfaces: Experienced in developing responsive and interactive web applications using React.js, including the implementation of components, state management, and hooks to create efficient and scalable user interfaces.</p>
+                    <p>Integrating APIs and Managing Application State: Capable of integrating RESTful APIs and managing global state using tools like Redux or Context API, ensuring smooth data flow and synchronization within React applications.</p>
+                    <!-- <a href="#" class="Btn">Read More</a> -->
+                </div>
+            </div>
+             </section>
+
+             <!-- CONTACT SECTION DESIGN -->
+
+             <section class="contact" id="contact">
+                <h2 class="heading">Contact <span>Me</span></h2>
+                <form action="https://web.whatsapp.com/" target="_blank">
+                    <div class="input-box">
+                        <input type="text" placeholder="Fullname">
+                        <input type="email" placeholder="Email address">
+                    </div>
+
+                    <div class="input-box">
+                        <input type="number" placeholder="Mobile number">
+                        <input class="text" placeholder="Email subject">
+                    </div>
+
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                   <input type="submit" value="Send message" class="Btn">
+                </form>
+             </section>
+
+        <!-- FOOTER SECTION DESIGN -->
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by@Kumarn | Allrights Reserved</p>
+            </div>
+
+            <div class="footer-icontop">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+
+        <!-- SCROLL  REVEAL JS -->
+            <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- TYPED JS -->
+             <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+             
+        <!-- MAIN JS -->
+            <script src="main.js"></script> 
+    </body>
+</html>
